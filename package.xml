@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>chatWindow</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>confirmChatterPostModal</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>recordSearch</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed>isExposed</isExposed>
+        <name>messenger</name>
+        <targets>lightning__UtilityBar</targets>
+        <targets>lightning__Tab</targets>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>recordLookup</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>userSearch</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>recordItem</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>loadFullHistoryModal</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>fileUpload</name>
+    </lightningComponents>
+    <namespacePrefix>MHolt</namespacePrefix>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Content</feature>
+    </orgFeaturePayloads>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>ApiAndHighVolumePlatformEvents</feature>
+    </orgFeaturePayloads>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>ApiAndPlatformEvents</feature>
+    </orgFeaturePayloads>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Chatter</feature>
+    </orgFeaturePayloads>
+    <types>
+        <members>CustomMetadataCallback</members>
+        <members>EncryptionKeyGenerator</members>
+        <members>EncryptionKeyGenerator_Test</members>
+        <members>MessengerUtils</members>
+        <members>MessengerUtils_Test</members>
+        <members>RecordSearchUtils_Test</members>
+        <members>SendMessageHandler</members>
+        <members>SendMessageHandler_Test</members>
+        <members>recordSearchUtils</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Chat_Message_Code__mdt.Key__c</members>
+        <members>Chat_Message__c.From_Name__c</members>
+        <members>Chat_Message__c.Image__c</members>
+        <members>Chat_Message__c.Message__c</members>
+        <members>Chat_Message__c.Participant_1__c</members>
+        <members>Chat_Message__c.Participant_2__c</members>
+        <members>Chat_Message__c.Participants__c</members>
+        <members>Chat_Message__c.Read__c</members>
+        <members>Message__e.Content__c</members>
+        <members>Message__e.From_Name__c</members>
+        <members>Message__e.From_User__c</members>
+        <members>Message__e.Message_Id__c</members>
+        <members>Message__e.To_User__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Chat_Message_Code__mdt</members>
+        <members>Chat_Message__c</members>
+        <members>Message__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Chat_Message_Code__mdt-Chat Message Code Layout</members>
+        <members>Chat_Message__c-Chat Message Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>chatWindow</members>
+        <members>confirmChatterPostModal</members>
+        <members>fileUpload</members>
+        <members>loadFullHistoryModal</members>
+        <members>messenger</members>
+        <members>recordItem</members>
+        <members>recordLookup</members>
+        <members>recordSearch</members>
+        <members>userSearch</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Messenger_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>51.0</version>
+</Package>
